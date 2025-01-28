@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilo geral do corpo */
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #f4f4f4;
+    background-color: #121212; /* Preto para fundo */
+  }
+  
+  /* Contêiner principal */
+  .container {
+    width: 90%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  
+  /* Cabeçalho */
+  header {
+    background: linear-gradient(45deg, #004aad, #001f4d); /* Gradiente azul */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  header h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+  }
+  
+  header nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  header nav ul li a {
+    color: #f4f4f4;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #00bfff; /* Azul claro para hover */
+  }
+  
+  /* Seções */
+  .section {
+    padding: 3rem 0;
+    text-align: center;
+  }
+  
+  .section h2 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    color: #00bfff; /* Azul claro */
+  }
+  
+  .section p {
+    color: #d1d1d1; /* Cinza claro */
+    font-size: 1.1rem;
+  }
+  
+  /* Projetos */
+  .projetos {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+  
+  .projeto {
+    background: #1e1e1e; /* Fundo cinza escuro */
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .projeto h3 {
+    font-size: 1.5rem;
+    color: #00bfff;
+    margin-bottom: 0.5rem;
+  }
+  
+  .projeto p {
+    color: #d1d1d1;
+    margin-bottom: 1rem;
+  }
+  
+  .projeto a {
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background: #004aad; /* Azul intenso */
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+  }
+  
+  .projeto a:hover {
+    background: #00bfff; /* Azul claro no hover */
+  }
+  
+  .projeto:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+  }
+  
+  /* Contato */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 10px 0;
+  }
+  
+  ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  ul li a:hover {
+    color: #004aad;
+  }
+  
+  /* Rodapé */
+  footer {
+    background: #004aad;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+  }
+  
+  footer p {
+    margin: 0;
+  }
